@@ -11,6 +11,7 @@
 		B330544520F12C4B00CA83B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B330544420F12C4B00CA83B9 /* ViewController.swift */; };
 		B330544A20F12C4D00CA83B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B330544920F12C4D00CA83B9 /* Assets.xcassets */; };
 		B330544D20F12C4D00CA83B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B330544B20F12C4D00CA83B9 /* LaunchScreen.storyboard */; };
+		B330545520F12FBC00CA83B9 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B330545420F12FBC00CA83B9 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B330544920F12C4D00CA83B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B330544C20F12C4D00CA83B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B330544E20F12C4D00CA83B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B330545420F12FBC00CA83B9 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				B330544220F12C4B00CA83B9 /* AppDelegate.swift */,
 				B330544420F12C4B00CA83B9 /* ViewController.swift */,
 				B330544920F12C4D00CA83B9 /* Assets.xcassets */,
+				B330545420F12FBC00CA83B9 /* Resnet50.mlmodel */,
 				B330544B20F12C4D00CA83B9 /* LaunchScreen.storyboard */,
 				B330544E20F12C4D00CA83B9 /* Info.plist */,
 			);
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B330544520F12C4B00CA83B9 /* ViewController.swift in Sources */,
+				B330545520F12FBC00CA83B9 /* Resnet50.mlmodel in Sources */,
 				B330544320F12C4B00CA83B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GCR8UYL38U;
 				INFOPLIST_FILE = ImageRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GCR8UYL38U;
 				INFOPLIST_FILE = ImageRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
